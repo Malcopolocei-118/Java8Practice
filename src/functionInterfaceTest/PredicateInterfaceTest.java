@@ -1,6 +1,5 @@
-package FunctionInterfaceTest;
+package functionInterfaceTest;
 
-import java.sql.PreparedStatement;
 import java.util.function.Predicate;
 
 public class PredicateInterfaceTest{

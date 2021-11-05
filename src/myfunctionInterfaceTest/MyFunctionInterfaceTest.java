@@ -1,4 +1,4 @@
-package MyfunctionInterfaceTest;
+package myfunctionInterfaceTest;
 
 public class MyFunctionInterfaceTest {
     public static void main(String[] args) {

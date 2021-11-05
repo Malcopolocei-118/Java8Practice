@@ -1,4 +1,4 @@
-package MyfunctionInterfaceTest;
+package myfunctionInterfaceTest;
 
 @FunctionalInterface
 public interface MyFunctionInterface {

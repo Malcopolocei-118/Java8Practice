@@ -1,4 +1,4 @@
-package FunctionInterfaceTest;
+package functionInterfaceTest;
 
 import java.util.function.Supplier;
 

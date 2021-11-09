@@ -29,6 +29,8 @@ public class streamApiTest {
         IntStream intStream = IntStream.rangeClosed(1, 3);
         System.out.println(intStream.findFirst());
 
+        System.out.println("-------");
+
         // - Stream Referencing
         Stream<String> stream = Stream.of("a", "b", "c").filter(element -> element.contains("b"));
         Optional<String> anyElement = stream.findAny();

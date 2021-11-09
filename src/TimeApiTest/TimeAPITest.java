@@ -19,7 +19,7 @@ public class TimeAPITest {
         System.out.println(LocalDateTime.parse("1995-04-05T06:06:06"));
         LocalDateTime strTest = LocalDateTime.parse(strToLDT, formatter);
         System.out.println(strTest);
-        separatorLine();
+        separatorLine("下面是datetime->String");
 
         //LocalDateTime -> String
         String toStrTest = now.format(formatter);;
@@ -33,7 +33,7 @@ public class TimeAPITest {
 
         //为做特殊的筛选，拼凑时分秒
         System.out.println(localDate.atTime(5,12,50));
-        separatorLine();
+        separatorLine("：获取每个月的特殊时间");
 
         //获取每个月第一天和每个月的最后一天
         LocalDate firstDayOfThisMonth = now.withDayOfMonth(1).toLocalDate();
